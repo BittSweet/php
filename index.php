@@ -1,5 +1,5 @@
 <?php
 
-	echo "Olá mundo!";
+	echo "On receiving an interrupt, decrement the counter to zero";
 
 ?>
