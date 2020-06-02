@@ -1,0 +1,125 @@
+body {
+    color: mistyrose(218, 217, 216);
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+h1{
+    padding: 15px;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: left;
+    width: 140px;
+    padding-right: 35px;
+    padding-top: 4px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    text-align: right;
+    width: 140px;
+    padding-right: 35px;
+    padding-top: 8px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.perfil li{
+    background-color: white;
+    margin-bottom: 1px;
+    text-align: left;
+
+    
+}
+
+.perfil a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.perfil{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.foto{
+	height: 180px;
+	border: 3px solid rgb(0, 0, 0);
+	margin-bottom: 5px;
+}
+
+.perfil ul{
+
+	float: left;
+	vertical-align: top;
+    width: 140px; 
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 5px;
+
+    
+}
+
+.busca h2, 
+.busca form, 
+.menu-departamentos h2{
+    margin: 10px;
+    
+   	position: absolute;
+   	top: 240px;
+   	right: 240px;
+    
+    
+}
+
+.busca input[type=search] {
+    width: 170px;
+
+}
+

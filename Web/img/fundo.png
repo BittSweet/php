@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html  lang="en" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta content="Vladimir Stepura" name="author"> 
+  <title>7 CSS Particle Backgrounds</title>
+  <meta name="description" content="A collection of hand-picked HTML and CSS particle background code examples."> 
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#414647">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  
+  <meta property="og:site_name" content="Free Frontend">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://freefrontend.com/css-particle-backgrounds/">
+  <meta property="og:title" content="7 CSS Particle Backgrounds">
+  <meta property="og:description" content="A collection of hand-picked HTML and CSS particle background code examples.">
+  <meta property="og:type" content="ogtypeart">
+  <meta name="og:image" content="https://freefrontend.com/assets/img/css-particle-backgrounds/thumb.png"> 
+  
+  <meta name="twitter:site" content="@css_live">
+  <meta name="twitter:creator" content="@css_live"> 
+  <meta name="twitter:description" content="A collection of hand-picked HTML and CSS particle background code examples.">
+  <meta name="twitter:title" content="7 CSS Particle Backgrounds">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://freefrontend.com/assets/img/css-particle-backgrounds/thumb.png"> 
+  <link rel="stylesheet" href="https://freefrontend.com/css/layers.min.css">
+  <link rel="stylesheet" href="https://freefrontend.com/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://freefrontend.com/css/prism.css">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "#4b81e8"
+    }
+  },
+  "theme": "edgeless",
+  "position": "bottom-right",
+    "content": {
+      "message": "By using freefrontend.com you accept our cookies and agree to our privacy policy, including cookie policy.",
+      "dismiss": "OK!",
+      "link": "Read privacy policy.",
+      "href": "https://freefrontend.com/privacy-policy/"
+    }
+  })});
+  </script>
+
+<body class="single single-post">
+  <header role="banner" class="transparent light">
+    <div class="row">
+      <div class="nav-inner row-content buffer-left buffer-right even clear-after">
+        <div id="brand">
+          <h2 class="reset"><a href="https://freefrontend.com">Free Frontend</a></h2>
+        </div>
+        <a id="menu-toggle" href="#"><i class="fa fa-bars fa-lg"></i></a>
+        <nav>
+          <ul class="reset" role="navigation">
+            <li class="menu-item">
+              <a href="javascript:void(0)">HTML + CSS</a>
+              <ul class="sub-menu">
+                <li><a href="/html-code-examples/">HTML Examples</a></li>
+                <li><a href="/css-code-examples/">CSS Examples</a></li>
+                <li><a href="/html-css-speed-code/">Speed Code</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="javascript:void(0)">JavaScript</a>
+              <ul class="sub-menu">
+                <li><a href="/javascript-code-examples">JavaScript Examples</a></li>
+                <li><a href="/jquery-code-examples/">jQuery Examples</a></li>
+                <li><a href="/react-code-examples/">React Examples</a></li>
+                <li><a href="/vue-code-examples/">Vue Examples</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="/free-web-books/">Books</a>
+            </li>
+            <li class="menu-item social">
+                <a href="javascript:void(0)"><i class="fas fa-ellipsis-h"></i></a>
+                <ul class="sub-menu">
+                    <li class="s-youtube"><a href="https://www.youtube.com/channel/UCGr_1whd05px8Jiksu_XVzQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li class="s-twitter"><a href="https://twitter.com/FreeFrontend" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="s-facebook"><a href="https://www.facebook.com/freefrontend/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li class="s-pinterest"><a href="https://www.pinterest.com/freefrontend/freefrontend/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                    <li class="s-rss"><a href="/index.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </ul>
+            </li>
+          </ul>
+        </nav>
+
+</div>	
+</div>	
+</header>
+<main role="main">
+  <div id="main" class="row">
+    <div class="row-content buffer-left buffer-right buffer-bottom clear-after">
+      <div class="ads column twenty last" style="margin-bottom: 40px;">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-2687268505112777"
+               data-ad-slot="1935567240"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+          </div>
+          <div id="post-nav">
+            <ul class="clear-after reset plain">
+              <li id="prev-items" class="post-nav"><a href="https://freefrontend.com/html-css-style-guides/"><i class="fa fa-chevron-left"></i><span class="label hidden-mobile">Prev</span></a></li> 
+              <li id="all-items" class="post-nav"><a href="https://freefrontend.com"><i class="icon icon-images"></i></a></li>
+              <li id="next-items" class="post-nav"><a href="https://freefrontend.com/css-triangle-backgrounds/"><span class="label hidden-mobile">Next</span><i class="fa fa-chevron-right"></i></a></li>  
+            </ul>
+          </div>
+      <aside role="complementary" class="sidebar column three">
+							<div class="widget widget_search">
+									<script>
+											(function() {
+											  var cx = 'partner-pub-2687268505112777:1479236044';
+											  var gcse = document.createElement('script');
+											  gcse.type = 'text/javascript';
+											  gcse.async = true;
+											  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+											  var s = document.getElementsByTagName('script')[0];
+											  s.parentNode.insertBefore(gcse, s);
+											})();
+										  </script>
+										  <gcse:search personalizedAds="false"></gcse:search>
+							</div>
+							<div class="widget">
+									<div class="ads">
+											<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+											
+											<ins class="adsbygoogle"
+												 style="display:block"
+												 data-ad-client="ca-pub-2687268505112777"
+												 data-ad-slot="3500726047"
+												 data-ad-format="auto"></ins>
+											<script>
+											(adsbygoogle = window.adsbygoogle || []).push({});
+											</script>
+										</div>
+								</div>
+								<div class="widget">
+									<div class="ads">
+											<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+											
+											<ins class="adsbygoogle"
+												 style="display:block"
+												 data-ad-client="ca-pub-2687268505112777"
+												 data-ad-slot="3500726047"
+												 data-ad-format="auto"></ins>
+											<script>
+											(adsbygoogle = window.adsbygoogle || []).push({});
+											</script>
+										</div>
+								</div>			
+						</aside>
+      <div class="post-area clear-after" style="clear: none;">
+        <article role="main" class="column nine last">
+          <img class="post-thumb" src="/assets/img/css-particle-backgrounds/thumb.png" alt="A collection of hand-picked HTML and CSS particle background code examples." title="A collection of hand-picked HTML and CSS particle background code examples.">
+          <h5 class="meta-post"><time datetime="2019-09-05 00:00:00 &#43;0000 UTC">September 5, 2019</time></h5>
+          <h1>7 CSS Particle Backgrounds</h1>
+          
+          <div class="addthis_inline_share_toolbox_qjvt"></div>
+          <p class="intro">A collection of hand-picked <strong>HTML and CSS particle background</strong> code examples.</p>
+
+<p><h4 class="list-header">Related Articles</h4>
+<ol>
+  <li><a href="/css-animated-backgrounds/" title="A collection of free HTML and CSS animated background code examples">CSS Animated Backgrounds</a></li>
+  <li><a href="/css-background-patterns/" title="A collection of free HTML and CSS background patterns code examples">CSS Background Patterns</a></li>
+  <li><a href="/css-fixed-backgrounds/" title="A collection of free HTML and CSS fixed background code examples">CSS Fixed Backgrounds</a></li>
+  <li><a href="/css-triangle-backgrounds/" title="A collection of free HTML and CSS triangle background code examples">CSS Triangle Backgrounds</a></li>
+  <li><a href="/jquery-background-plugins/" title="A collection of free jQuery background plugins: adaptive, fullscreen, change color, video, etc">jQuery Background Plugins</a></li>
+</ol></p>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/pure-css-particle-animation.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>胡嘉仕</li>
+        <li><time>July 23, 2019</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/hf666/pen/WVrpWe" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/pure-css-particle-animation-2019-09.zip">download (19 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML (Pug) / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>Pure CSS Particle Animation</h3>
+  <p>CSS particle animation without JavaScript. The most important point is random movement of particles. The vignetting was created by <code>mask-image</code> property.</p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/css-particles-background.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>rx0079</li>
+        <li><time>July 3, 2019</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/re0079/pen/agGPOO" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/css-particles-2019-09.zip">download (6 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML (Pug) / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>CSS Particles Background</h3>
+  <p></p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/animated-particle-background.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>Envato Tuts+</li>
+        <li><time>December 21, 2017</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/tutsplus/pen/MrjYJK" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/how-to-create-an-animated-particle-background-using-css-and-javascriptthe-css-only-approach-2019-09.zip">download (5 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>Animated Particle Background</h3>
+  <p>An animated particle background in pure CSS.</p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/random-particles-animation.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>Rémi Denimal</li>
+        <li><time>July 18, 2017</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/remid/pen/OgYjYV" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/sass-onlyrandom-particles-animation-2019-09.zip">download (12 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML (Haml) / CSS (Sass)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>Random Particles Animation</h3>
+  <p>Loop with Sass & Compass of random circle particles.</p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/css-particles.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>Alexi Taylor</li>
+        <li><time>June 28, 2017</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/alexitaylor/pen/RgxJwg" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/css-particles-2-2019-09.zip">download (.kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>CSS Particles</h3>
+  <p></p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/pure-css-particles.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>leoman</li>
+        <li><time>March 24, 2017</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/cssparadise/pen/WNedRRM" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/pure-css-particles-2019-09.zip">download (7 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML (Pug) / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>Pure CSS Particles</h3>
+  <p></p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+
+<article class="wrapper-2017">
+  <video src="/assets/img/css-particle-backgrounds/css-particle-style-animation.mp4" preload="metadata" loop></video>
+    <div class="img-extra"></div>
+  <div class="info-box">
+    <div class="info info-author">
+      <h4>Author</h4>
+      <ul>
+        <li>John</li>
+        <li><time>March 16, 2016</time></li>
+      </ul>
+    </div>
+  <div class="info info-link">
+    <h4>Links</h4>
+    <ul>
+      <li><a href="https://codepen.io/Johnm__/pen/qZqgGJ" target="_blank">demo and code</a></li>
+      <li><a href="/assets/zip/css-particle-style-animation-2019-09.zip">download (3 kb *zip)</a></li>
+    </ul>
+  </div>
+  <div class="info info-frontend">
+    <h4>Made with</h4>
+    <ul>
+      <li>HTML (Haml) / CSS (SCSS)</li>
+    </ul>
+    </div>
+  </div>
+  <h4 class="about-the-item">About the code</h4>
+  <h3>CSS Particle Style Animation</h3>
+  <p>Playing around with an effect to include on the product page of Outfit.io</p>
+  <p><span class="accent">Compatible browsers: </span>Chrome, Edge, Firefox, Opera, Safari</p>
+  <p><span class="accent">Responsive: </span>yes</p>
+  <p><span class="accent">Dependencies: </span>-</p>
+</article>
+        </article>
+      </div>
+      <div class="container">
+        <div class="ads" style="max-width:100%;">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-2687268505112777"
+    data-ad-slot="4941236040"
+    data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+    </div>
+    </div>
+  </div>
+</main>
+<footer role="contentinfo">
+    <div class="row">
+        <div class="row-content buffer clear-after">
+            <section id="top-footer">
+                <div class="widget column three">
+                    <h4>HTML + CSS</h4>
+                    <ul class="plain">
+                        <li><a href="/html-code-examples/">HTML Examples</a></li>
+                        <li><a href="/css-code-examples/">CSS Examples</a></li>
+                        <li><a href="/html-css-speed-code/">Speed Code</a></li>
+                    </ul>
+                </div>
+                <div class="widget column three">
+                    <h4>JavaScript</h4>
+                    <ul class="plain">
+                        <li><a href="/javascript-code-examples">JavaScript Examples</a></li>
+                        <li><a href="/jquery-code-examples/">jQuery Examples</a></li>
+                        <li><a href="/react-code-examples/">React Examples</a></li>
+                        <li><a href="/vue-code-examples/">Vue Examples</a></li>
+                    </ul>
+                </div>								
+                <div class="widget column three">
+                    <h4>Other</h4>
+                    <ul class="plain">
+                        <li><a href="/free-web-books/">Free Books</a></li>
+                    </ul>
+                </div>				
+                <div class="widget meta-social column three">
+                    <h4>Follow Us</h4>
+                    <ul class="inline">
+                        <li class="s-youtube"><a href="https://www.youtube.com/channel/UCGr_1whd05px8Jiksu_XVzQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li class="s-twitter"><a href="https://twitter.com/FreeFrontend" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="s-facebook"><a href="https://www.facebook.com/freefrontend/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li class="s-pinterest"><a href="https://www.pinterest.com/freefrontend/freefrontend/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="s-tumblr"><a href="https://www.tumblr.com/blog/freefrontend-blog" target="_blank"><i class="fab fa-tumblr"></i></a></li>
+                        <li class="s-linkedin"><a href="https://www.linkedin.com/groups/13807698/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="s-ello"><a href="https://ello.co/freefrontend" target="_blank"><i class="fab fa-ello"></i></a></li>
+                        <li class="s-reddit"><a href="https://www.reddit.com/r/freecodestuff/" target="_blank"><i class="fab fa-reddit"></i></a></li>
+                        <li class="s-vk"><a href="https://vk.com/freefrontend" target="_blank"><i class="fab fa-vk"></i></a></li>
+                        <li class="s-rss"><a href="/index.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                </div>														
+            </section>
+            <section id="bottom-footer">
+                <p class="keep-left">FreeFrontend &copy; 2016 - 2020</p>
+                <p class="keep-right"><a href="/privacy-policy">Privacy Policy and Cookies Policy</a></p>
+            </section>			
+        </div>	
+    </div>	
+</footer>
+<a href="#main" id="to-top" title="Go to top">back to top</a>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>		
+<script src="/js/plugins.js"></script>
+<script src="/js/beetle.js"></script>
+<script src="/js/jquery.custom.js"></script>	
+<script src="/js/prism.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js"></script>	
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-63013215-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5386e46e10ed731d"></script>
+</body>
+</html>

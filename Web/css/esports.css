@@ -1,0 +1,52 @@
+body{
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'sans-serif';
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/fundo-rodape.png);
+	width: 940px;
+	color: rgb(255, 255, 255);
+
+}
+
+figure{
+	text-align: center;
+	padding: 15px
+	margin: 30px;
+}
+
+#camisa{
+	float: right;
+	margin: 0 0 10px 30px;
+	border: 2px solid rgb(0, 0, 0);
+	background-image: url(../img/sobre-background.jpg);
+}
+
+h2{
+	border-bottom: 2px groove#333333;
+    margin-top: 30px;
+}
+
+#logo{
+	margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+p{
+	text-align: justify;
+	text-indent: 15px
+}
+
+li{
+	color: red;
+}
+
+a{
+	color: red;
+
+}
+
+figcaption{
+	font-style: italic;
+	color: black;
+}
