@@ -1,6 +1,20 @@
 body{
     background-color:  rgb(255, 121, 77);
     font-family:'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+
+}
+
+header{
+    margin-top: 150px;
+    
+    padding: 10px;
+    background-image:url(../img/bg.jpg);
+}
+
+header p{
+    
+    color: yellow;
+
 }
 
 .banner-destaque img{
@@ -8,10 +22,19 @@ body{
     width: 300px;
 }
 
+
 .banner-destaque li {
     display: inline;
 }
 
+.banner-destaque img {
+    width: 290px;
+    padding-left: 20px;
+}
+
+.mais-vendidos img{
+ width: 120px;
+}
 
 .guia, 
 .menu-departamentos{
@@ -24,6 +47,7 @@ body{
 
 .brand img{
     width: 100px;
+
 }
 
 .guia h2, 
@@ -103,6 +127,10 @@ header{
     background-color: #f5dcdc;
 }
 
+.novidades img{
+    width: 120px;
+}
+
 .painel{
     margin: 10px 0px;
     padding: 10px;
@@ -145,4 +173,13 @@ header{
     right: 0px;
 }
 
+
+
+footer{
+    margin-top: 250px;
+    height: 114px;
+    background-image:url(../img/bg.jpg);
+    
+
+}
 

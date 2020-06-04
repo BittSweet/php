@@ -1,5 +1,5 @@
 body {
-    color: mistyrose(218, 217, 216);
+    background-color:  rgb(255, 121, 77);
     font-family:'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -12,27 +12,19 @@ body {
     width: 940px;
 }
 
+.container img{
+    width: 80px;
+}
+
 header{
     position: relative;
 }
 
 h1{
     padding: 15px;
+    color: red;
 }
 
-.sacola {
-    background-image: url(../img/sacola.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    font-size: 14px;
-    text-align: right;
-    width: 140px;
-    padding-right: 35px;
-    padding-top: 4px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
 
 .menu-opcoes{
     position: absolute;
@@ -44,6 +36,7 @@ h1{
 {
     display: inline;
     margin-left: 20px;
+    float: right;
 }
 
 .menu-opcoes ul{
@@ -55,7 +48,7 @@ h1{
 }
 
 h1{
-    background-image: url(../img/sobre-background.jpg);
+    background-color: rgb(255, 204, 0);
     padding: 10px;
 }
 
@@ -72,7 +65,7 @@ p{
 }
 
 figure{
-    background-image: url(../img/sobre-background.jpg);
+    background-color: rgb(255, 204, 0);
     border: 3px solid rgb(0, 0, 0);
     text-align: center;
     padding: 15px;
@@ -82,13 +75,13 @@ figure{
 #centro-distribuicao{
     margin-left: auto;
     margin-right: auto;
-    width: 550px;
+    width: 700px;
 }
 
-#familia-pelho{
-    float: right;
-    margin: 0 0 10px 30px;
+#centro-distribuicao img{
+    width: 600px;
 }
+
 
 figcaption{
     font-style: italic;
@@ -102,9 +95,12 @@ footer{
     font-size: small;
 }
 
-footer img{
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
+footer{
+    
+    margin-bottom: 0px;
+    height: 100px;
+    background-image:url(../img/bg.jpg);
+    
+
 }
 
