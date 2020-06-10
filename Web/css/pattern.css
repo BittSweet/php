@@ -1,0 +1,42 @@
+body {
+    
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    
+}
+
+.head{
+    
+    padding: 10px;
+    background-image:url(../img/bg.jpg);
+}
+
+
+
+.titulo {
+	text-align: center;
+	color: yellow;
+	font-size: 80px;
+	margin-top: 5px;
+	position: relative;
+}
+
+.brand img {
+	width: 70px;
+	float: left;
+}
+
+footer p{
+	color: yellow;
+}
+
+footer{
+
+	background-image:url(../img/bg.jpg);
+	height: 100px;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 400px;
+}
